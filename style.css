@@ -1,0 +1,317 @@
+body {
+  background: linear-gradient(to bottom, #ffe6e6, #ffffff);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+hr {
+  color: #ff69b4;
+  background-color: #ff69b4;
+}
+
+header,
+.navbar,
+footer {
+  width: 100%;
+}
+
+header {
+  background-color: #ffc0cb;
+  color: #ff69b4;
+  padding-top: 20px;
+  height: 88px;
+}
+
+main {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  word-break: normal;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 a:link {
+  text-decoration: none;
+  color: #ff46a2;
+}
+
+h1 a:visited {
+  text-decoration: none;
+  color: #ff46a2;
+}
+
+h2 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/*h2.roboto-big {
+  margin-top: 100px;
+}*/
+
+h2.subt {
+  margin-top: 40px;
+}
+
+footer {
+  background: #ffc0cb;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+
+#intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+p {
+  color: #333333;
+}
+
+#articles {
+  margin-top: 50px;
+}
+
+.breeds {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+img:not(.gallery img) {
+  height: 230px;
+  background-color: white;
+  margin: 10px;
+  border: 5px solid #ff69b4;
+  border-radius: 20px;
+  padding: 3px;
+  margin-right: 12px;
+}
+
+.navbar a:hover {
+  background-color: #e151c9;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: #e378d1;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+#email {
+  color: #8a2be2;
+  text-decoration: none;
+}
+
+#email:visited {
+  color: #8a2be2;
+}
+
+#email:hover {
+  color: rgb(255, 67, 255);
+}
+
+#email:active {
+  color: rgb(203, 27, 203);
+}
+
+.links {
+  color: #8a2be2;
+  text-decoration: none;
+}
+
+.links:visited {
+  color: #8a2be2;
+}
+
+.links:hover {
+  color: rgb(255, 67, 255);
+}
+
+.links:active {
+  color: rgb(203, 27, 203);
+}
+
+.art {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  margin-left: 10px;
+  flex: 1;
+  min-width: 150px;
+}
+
+#logo {
+  background: transparent;
+  border: none;
+  height: 40px;
+  position: relative;
+  top: -10px;
+  float: left;
+}
+
+#end {
+  margin-left: 10px;
+}
+
+/*.start{
+      border: none;
+      border-radius: 0;
+      position: relative;
+      top: 10px;
+      width: 155px;
+  
+  }
+  
+  .startt{
+      padding: 2px;
+      border: black solid;
+      border-radius: 10px;
+      margin-top: 10px;
+      text-align: center;
+      color: black;
+  }
+  
+  .all{
+      background-color: lightskyblue;
+      border: 5px solid;
+      border-radius: 10px;
+      width: 200px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
+  }*/
+
+.all:hover {
+  background-color: rgb(104, 180, 255);
+}
+
+.all a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.all a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.all a:visited:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#aboutme {
+  margin-right: 4px;
+}
+
+.gallery {
+  display: inline-block;
+  border: 3px solid #bd70cc;
+  border-radius: 6px;
+  margin: 5px;
+  width: 200px;
+}
+
+.gallery .description {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery a .description {
+  color: black;
+}
+
+.gallery a:visited .description {
+  color: black;
+}
+
+.gallery a {
+  text-decoration: none;
+}
+
+.gallery:hover {
+  border-color: #9e2bb5;
+}
+
+.gallery img {
+  width: 200px;
+  background-color: white;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.x {
+  color: black;
+}
+
+.instagram {
+  color: #c13584;
+}
+
+.roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-big {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #8a2be2;
+}
+
+.roboto-huge {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.playwrite {
+  font-family: 'Playwrite US Trad', cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: #8a2be2;
+}
